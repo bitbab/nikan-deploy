@@ -1,4 +1,4 @@
-import User from 'models/Usert';
+import User from 'models/User';
 import Product from 'models/Product';
 import data from 'utils/data';
 import db from 'utils/db';
