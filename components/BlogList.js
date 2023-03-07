@@ -20,9 +20,9 @@ export default function BlogList() {
               <div className="absolute bottom-0 left-0 p-6">
                 <h2 className="text-xl font-semibold 5 text-white">تعویض ترمز دوچرخه</h2>
                 {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-                <a href="javascript:void(0)" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
+                <a href="/" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                <svg className="fill-stroke rotate-180" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg> 
                  <p className="pr-2 text-sm font-medium leading-none">خواندن بیشتر</p>
                              </a>
@@ -36,9 +36,9 @@ export default function BlogList() {
               <div className="absolute bottom-0 left-0 p-6">
                 <h2 className="text-xl font-semibold 5 text-white">10 نکته مهم برای دوچرخه‌سواری در پاییز</h2>
                 {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-                <a href="javascript:void(0)" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
+                <a href="/" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                <svg className="fill-stroke rotate-180" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg> 
                  <p className="pr-2 text-sm font-medium leading-none">خواندن بیشتر</p>
                              </a>
@@ -53,9 +53,9 @@ export default function BlogList() {
             <div className="absolute bottom-0 left-0 md:p-10 p-6">
               <h2 className="text-xl font-semibold 5 text-white">5 نکته اساسی برای رکاب زنی</h2>
               {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-              <a href="javascript:void(0)" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
+              <a href="/" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                <svg className="fill-stroke rotate-180" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg> 
                  <p className="pr-2 text-sm font-medium leading-none">خواندن بیشتر</p>
                              </a>
@@ -72,9 +72,9 @@ export default function BlogList() {
             <div className="absolute bottom-0 left-0 md:p-10 p-6">
               <h2 className="text-xl font-semibold 5 text-white">نحوه صحیح تنظیم کلاه ایمنی کودکان</h2>
               {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-              <a href="javascript:void(0)" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
+              <a href="/" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                <svg className="fill-stroke rotate-180" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg> 
                  <p className="pr-2 text-sm font-medium leading-none">خواندن بیشتر</p>
                              </a>
@@ -90,9 +90,9 @@ export default function BlogList() {
               <div className="absolute bottom-0 left-0 p-6">
                 <h2 className="text-xl font-semibold 5 text-white">توصیه هایی برای رکاب زنی در دوران بارداری</h2>
                 {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-                <a href="javascript:void(0)" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
+                <a href="/" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                <svg className="fill-stroke rotate-180" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg> 
                  <p className="pr-2 text-sm font-medium leading-none">خواندن بیشتر</p>
                              </a>
@@ -106,9 +106,9 @@ export default function BlogList() {
               <div className="absolute bottom-0 left-0 p-6">
                 <h2 className="text-xl font-semibold 5 text-white">چگونه دوچرخه سواری را شروع کنیم؟</h2>
                 {/* <p className="text-base leading-4 text-white mt-2">Dive into minimalism</p> */}
-                <a href="javascript:void(0)" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
+                <a href="/" className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline">
                <svg className="fill-stroke rotate-180" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M5.75 12.5L10.25 8L5.75 3.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg> 
                  <p className="pr-2 text-sm font-medium leading-none">خواندن بیشتر</p>
                              </a>

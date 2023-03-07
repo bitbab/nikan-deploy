@@ -52,7 +52,19 @@ textarea {
 iframe {
   overflow: hidden;
 }
+.slick-dots {
+  bottom: 20px;
+}
 
+.slick-dots li button:before {
+  color: #fecaca;
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #dc2626;
+  opacity: 1;
+}
 
 /* .active-slide {
   animation-name: slide-in;

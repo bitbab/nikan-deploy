@@ -1,19 +1,10 @@
-
 import Link from 'next/link';
 
-
 function MainNav() {
- 
-
   return (
-
     <div>
       <ul className="flex">
-   
-        <li
-          className="flex px-2 py-2 -mb-px text-center text-slate-700 bg-transparent border-b-4 border-transparent sm:px-4 -px-1 dark:text-white whitespace-nowrap cursor-base focus:outline-none hover:border-rose-700 hover:text-blue-600"
-     
-        >
+        <li className="flex px-2 py-2 -mb-px text-center text-slate-700 bg-transparent border-b-4 border-transparent sm:px-4 -px-1 dark:text-white whitespace-nowrap cursor-base focus:outline-none hover:border-rose-700 hover:text-blue-600">
           <Link href="/contact" className="flex justify-center ">
             <div className="ml-2 w-6 h-6 ">
               <svg
@@ -36,13 +27,9 @@ function MainNav() {
             </div>
           </Link>
         </li>
-        <li
-          className="flex px-2 py-2 -mb-px text-center text-slate-700 bg-transparent border-b-4 border-transparent sm:px-4 -px-1 dark:text-white whitespace-nowrap cursor-base focus:outline-none hover:border-rose-700 hover:text-blue-600"
-          // ={handleMenuClick}
-        >
+        <li className="flex px-2 py-2 -mb-px text-center text-slate-700 bg-transparent border-b-4 border-transparent sm:px-4 -px-1 dark:text-white whitespace-nowrap cursor-base focus:outline-none hover:border-rose-700 hover:text-blue-600">
           <Link href="/about" className="flex justify-center ">
             <div className=" w-6 h-6 ml-2">
-              {/* <img src="/img/icons/icons8-about-us-58.png" /> */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -63,10 +50,7 @@ function MainNav() {
             </div>
           </Link>
         </li>
-        <li
-          className="flex px-2 py-2 -mb-px text-center text-slate-700 bg-transparent border-b-4 border-transparent sm:px-4 -px-1 dark:text-white whitespace-nowrap cursor-base focus:outline-none hover:border-rose-700 hover:text-blue-600"
-          // ={handleMenuClick}
-        >
+        <li className="flex px-2 py-2 -mb-px text-center text-slate-700 bg-transparent border-b-4 border-transparent sm:px-4 -px-1 dark:text-white whitespace-nowrap cursor-base focus:outline-none hover:border-rose-700 hover:text-blue-600">
           <Link href="/blog" className="flex justify-center ">
             <div className="w-6 h-6 ml-2">
               <svg
@@ -89,10 +73,7 @@ function MainNav() {
             </div>
           </Link>
         </li>
-        <li
-          className="flex px-2 py-2 -mb-px text-center text-slate-700 bg-transparent border-b-4 border-transparent sm:px-4 -px-1 dark:text-white whitespace-nowrap cursor-base focus:outline-none hover:border-rose-700 hover:text-blue-600"
-          // ={handleMenuClick}
-        >
+        <li className="flex px-2 py-2 -mb-px text-center text-slate-700 bg-transparent border-b-4 border-transparent sm:px-4 -px-1 dark:text-white whitespace-nowrap cursor-base focus:outline-none hover:border-rose-700 hover:text-blue-600">
           <Link href="/size-guide" className="flex justify-center ">
             <div className="w-6 h-6 ml-2">
               <svg
@@ -111,15 +92,12 @@ function MainNav() {
               </svg>
             </div>
             <div>
-              {' '}
               <span className="text-sm">راهنمای سایز دوچرخه</span>
-            </div>{' '}
+            </div>
           </Link>
         </li>
       </ul>
-      
     </div>
-   
   );
 }
 

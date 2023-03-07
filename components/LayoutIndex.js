@@ -16,10 +16,11 @@ import ModalMenu from 'components/ModalMenu';
 import MainNav from './MainNav';
 import Social from './Social';
 import TabMenu from './TabMenu';
-import Slider from './Sliders';
+import Banner from './Banner';
 import CategoryList from './CategoryList';
 import BlogList from './BlogList';
 import Footer from './Footer';
+import TopHeaderBanner from './TopHeaderBanner';
 
 export default function Layout({ title, children }) {
   const { status, data: session } = useSession();
@@ -51,10 +52,12 @@ export default function Layout({ title, children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ToastContainer position="bottom-center" limit={1} />
+     
       <div className="flex min-h-screen flex-col justify-between">
         {/* this is a parent of all components */}
-        <header className="container mb-24 m-auto">
-          <nav className="flex flex-col py-2  bg-white/80 backdrop-blur-md shadow-md w-full fixed top-0 left-0 right-0 z-10">
+        <header className="container mb-16 md:mb-32  m-auto">
+          <nav className="flex flex-col py-1  bg-white/80 backdrop-blur-md shadow-md w-full fixed top-0 left-0 right-0 z-20">
+          <TopHeaderBanner imageUrl="/img/banner/top.jpg" linkUrl="/shop" />
             <div className="container flex  justify-around w-full mb-1">
               <Link href="/">
                 <img className="" src="/img/logo/logo50.png" alt="نیکان بایک" />
@@ -90,7 +93,7 @@ export default function Layout({ title, children }) {
             </div>
 
             <hr className="hidden md:block" />
-            <div className=" container hidden md:flex md:justify-around  md:w-full md:mt-1 md:items-center">
+            <div className=" container hidden  md:flex md:justify-around  md:w-full md:mt-1 md:items-center">
               <div className="container mx-auto px-4 flex  items-center justify-between">
                 <nav>
                   <ul className="flex items-center justify-center font-semibold">
@@ -318,7 +321,7 @@ export default function Layout({ title, children }) {
         </header>
         <main className=" grid grid-cols-1 container px-4 mt-8 m-auto">
           <div className="mb-5 shadow-md  rounded-xl">
-            <Slider />
+            <Banner />
           </div>
           <div className="mb-5 shadow-md  rounded-xl">
             <CategoryList />
@@ -340,7 +343,7 @@ export default function Layout({ title, children }) {
             <BlogList />
           </div>
         </main>
-      <Footer/>
+        <Footer />
       </div>
     </>
   );

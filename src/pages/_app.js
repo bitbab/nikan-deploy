@@ -1,3 +1,7 @@
+// this 2 css is for banner slider and can delete if unwanted
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+// the main css file
 import '@/styles/globals.css';
 import { SessionProvider, useSession } from 'next-auth/react';
 import { StoreProvider } from 'utils/Store';
