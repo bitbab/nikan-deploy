@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 function SmallNav() {
   return (
-    <div className="h-96 overflow-y-scroll">
+    <div className="max-h-screen overflow-y-scroll">
     <div className="w-full  px-4 pt-1 mb-16">
       <div className="mx-auto min-h-screen w-full max-w-md rounded-2xl bg-white p-2">
         <Disclosure>
