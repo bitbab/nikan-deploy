@@ -11,25 +11,21 @@ export default function CategoryList() {
             دسته بندی محصولات
           </h1>
 
-          {/* <p className="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-            incidunt ex placeat modi magni quia error alias, adipisci rem
-            similique, at omnis eligendi optio eos harum.
-          </p> */}
+      
 
-          <div className="grid grid-cols-1 gap-8 mt-3 xl:mt-6 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
+          <div className="grid grid-cols-3 gap-4 md:gap-8 mt-3 xl:mt-6  lg:grid-cols-5">
             <div>
               <Link
                 href={'/'}
-                className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl"
+                className="flex flex-col items-center p-3 md:p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl"
               >
                 <img
-                  className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+                  className="object-cover w-10 h-10 md:w-20 md:h-20 lg:w-32 lg:h-32 rounded-full ring-4 ring-gray-300"
                   src="/img/cat/1.jpg"
                   alt=""
                 />
 
-                <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+                <h1 className="mt-4 text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
                   دوچرخه
                 </h1>
 
@@ -39,15 +35,15 @@ export default function CategoryList() {
             <div>
               <Link
                 href={'/'}
-                className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl"
+                className="flex flex-col items-center p-3 md:p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl"
               >
                 <img
-                  className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+                 className="object-cover w-10 h-10 md:w-20 md:h-20 lg:w-32 lg:h-32 rounded-full ring-4 ring-gray-300"
                   src="/img/cat/2.jpg"
                   alt=""
                 />
 
-                <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+                <h1 className="mt-4 text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
                   تردمیل
                 </h1>
 
@@ -57,15 +53,15 @@ export default function CategoryList() {
             <div>
               <Link
                 href={'/'}
-                className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl"
+                className="flex flex-col items-center p-3 md:p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl"
               >
                 <img
-                  className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+                 className="object-cover w-10 h-10 md:w-20 md:h-20 lg:w-32 lg:h-32 rounded-full ring-4 ring-gray-300"
                   src="/img/cat/3.jpg"
                   alt=""
                 />
 
-                <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+                <h1 className="mt-4 text-xs sm:text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
                   قطعات دوچرخه
                 </h1>
 
@@ -75,15 +71,15 @@ export default function CategoryList() {
             <div>
               <Link
                 href={'/'}
-                className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl"
+                className="flex flex-col items-center p-3 md:p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl"
               >
                 <img
-                  className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+                  className="object-cover w-10 h-10 md:w-20 md:h-20 lg:w-32 lg:h-32 rounded-full ring-4 ring-gray-300"
                   src="/img/cat/4.jpg"
                   alt=""
                 />
 
-                <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+                <h1 className="mt-4 text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
                   لوازم جانبی
                 </h1>
 
@@ -93,15 +89,15 @@ export default function CategoryList() {
             <div>
               <Link
                 href={'/'}
-                className="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl"
+                className="flex flex-col items-center p-3 md:p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl"
               >
                 <img
-                  className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+                 className="object-cover w-10 h-10 md:w-20 md:h-20 lg:w-32 lg:h-32 rounded-full ring-4 ring-gray-300"
                   src="/img/cat/5.jpg"
                   alt=""
                 />
 
-                <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+                <h1 className="mt-4 text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
                   پوشاک
                 </h1>
 
