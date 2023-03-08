@@ -25,7 +25,7 @@ export default function CategoryList() {
                   alt=""
                 />
 
-                <h1 className="mt-4 text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+                <h1 className="mt-4 text-xs sm:text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
                   دوچرخه
                 </h1>
 
@@ -43,44 +43,8 @@ export default function CategoryList() {
                   alt=""
                 />
 
-                <h1 className="mt-4 text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+                <h1 className="mt-4 text-xs sm:text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
                   تردمیل
-                </h1>
-
-                <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"></p>
-              </Link>
-            </div>
-            <div>
-              <Link
-                href={'/'}
-                className="flex flex-col items-center p-3 md:p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl"
-              >
-                <img
-                 className="object-cover w-10 h-10 md:w-20 md:h-20 lg:w-32 lg:h-32 rounded-full ring-4 ring-gray-300"
-                  src="/img/cat/3.jpg"
-                  alt=""
-                />
-
-                <h1 className="mt-4 text-xxs sm:text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
-                  قطعات دوچرخه
-                </h1>
-
-                <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"></p>
-              </Link>
-            </div>
-            <div>
-              <Link
-                href={'/'}
-                className="flex flex-col items-center p-3 md:p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl"
-              >
-                <img
-                  className="object-cover w-10 h-10 md:w-20 md:h-20 lg:w-32 lg:h-32 rounded-full ring-4 ring-gray-300"
-                  src="/img/cat/4.jpg"
-                  alt=""
-                />
-
-                <h1 className="mt-4 text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
-                  لوازم جانبی
                 </h1>
 
                 <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"></p>
@@ -97,13 +61,51 @@ export default function CategoryList() {
                   alt=""
                 />
 
-                <h1 className="mt-4 text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+                <h1 className="mt-4 text-xs sm:text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
                   پوشاک
                 </h1>
 
                 <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"></p>
               </Link>
+            </div> 
+             <div>
+              <Link
+                href={'/'}
+                className="flex flex-col items-center p-3 md:p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl"
+              >
+                <img
+                  className="object-cover w-10 h-10 md:w-20 md:h-20 lg:w-32 lg:h-32 rounded-full ring-4 ring-gray-300"
+                  src="/img/cat/4.jpg"
+                  alt=""
+                />
+
+                <h1 className="mt-4 text-center text-xs sm:text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+                  لوازم جانبی
+                </h1>
+
+                <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"></p>
+              </Link>
             </div>
+            <div>
+              <Link
+                href={'/'}
+                className="flex flex-col items-center p-3 md:p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-blue-600 rounded-xl"
+              >
+                <img
+                 className="object-cover w-10 h-10 md:w-20 md:h-20 lg:w-32 lg:h-32 rounded-full ring-4 ring-gray-300"
+                  src="/img/cat/3.jpg"
+                  alt=""
+                />
+
+                <h1 className="mt-4 text-center text-xs sm:text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+                  قطعات دوچرخه
+                </h1>
+
+                <p className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"></p>
+              </Link>
+            </div>
+           
+           
           </div>
         </div>
       </section>
