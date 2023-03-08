@@ -61,7 +61,7 @@ export default function CategoryList() {
                   alt=""
                 />
 
-                <h1 className="mt-4 text-xs sm:text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+                <h1 className="mt-4 text-xxs sm:text-sm md:text-base lg:text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
                   قطعات دوچرخه
                 </h1>
 
