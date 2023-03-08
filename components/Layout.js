@@ -18,6 +18,7 @@ import TabMenu from './TabMenu';
 import Footer from './Footer';
 import MobileMenu from './MobileMenu';
 import TopHeaderBanner from './TopHeaderBanner';
+import CallButton from './CallButton';
 
 
 export default function Layout({ title, children }) {
@@ -320,8 +321,10 @@ export default function Layout({ title, children }) {
               {/* ------------------end of footer buttons----------- */}
             </div>
           </nav>
+          <CallButton/>
         </header>
-        <main className="container px-4 mt-8 m-auto">{children}</main>
+        <main className="container px-4 mt-8 m-auto">
+          {children}</main>
        <Footer/>
       </div>
     </>

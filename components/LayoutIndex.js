@@ -21,6 +21,7 @@ import BlogList from './BlogList';
 import Footer from './Footer';
 import TopHeaderBanner from './TopHeaderBanner';
 import MobileMenu from './MobileMenu';
+import CallButton from './CallButton';
 
 export default function Layout({ title, children }) {
   const { status, data: session } = useSession();
@@ -323,8 +324,12 @@ export default function Layout({ title, children }) {
               {/* ------------------end of footer buttons----------- */}
             </div>
           </nav>
+         
+            <CallButton/>
+          
         </header>
         <main className=" grid grid-cols-1 container px-4 mt-8 m-auto">
+         
           <div className="mb-5 shadow-md  rounded-xl">
             <Banner />
           </div>
