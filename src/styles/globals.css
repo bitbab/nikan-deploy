@@ -68,6 +68,15 @@ iframe {
 .tablinks:hover img {
   @apply ring-blue-500 duration-100;
 }
+.disclure:hover img {
+  @apply ring-blue-500 duration-100;
+}
+.disclure:hover svg {
+  @apply ring-blue-500 duration-100;
+}
+.disclure:hover  {
+  @apply shadow-md text-blue-600 -translate-x-1 duration-100;
+}
 
 
 /* .active-slide {

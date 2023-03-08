@@ -36,7 +36,7 @@ export default function ProductScreen(props) {
   };
   return (
     <Layout title={product.name}>
-      <div className="py-2 mb-4 mt-2">
+      <div className="py-2 mb-4 mt-10">
         <Link className="bg-rose-600 rounded-md text-slate-50 p-2 hover:bg-rose-500" href="/">
           برگشت به صفحه اصلی
         </Link>
