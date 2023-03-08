@@ -108,8 +108,8 @@ export default function Layout({ title, children }) {
                         <span className="text-sm">دسته بندی ها </span>
                       </button>
                       <div className="absolute lg:right-10 top-3 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100  group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[900px] transform">
-                        <div className="relative top-6 p-6 bg-white rounded-xl shadow-xl w-full">
-                          <div className="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 translate-x-0 transition-transform group-hover:translate-x-[1rem] duration-500 ease-in-out rounded-sm"></div>
+                        <div className="relative top-6 p-6 bg-gray-200/95 backdrop-blur-md rounded-xl shadow-xl w-full ">
+                          <div className="w-10 h-10  bg-gray-200/95 backdrop-blur-md transform rotate-45 absolute top-0 z-0 translate-x-0 transition-transform group-hover:translate-x-[1rem] duration-500 ease-in-out rounded-sm"></div>
                           <div className="relative z-10">
                             <div className="flex items-center justify-center  py-2">
                               <TabMenu />

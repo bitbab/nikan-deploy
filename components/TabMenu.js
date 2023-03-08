@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
+
 function TabMenu() {
   const [activeTab, setActiveTab] = useState('دوچرخه');
 
@@ -10,48 +11,88 @@ function TabMenu() {
   };
 
   return (
-    <div className="flex w-full  bg-gray-100 rounded-md">
-      <div className="w-1/5  bg-gray-200">
+    <div className="flex w-full  bg-gray-50 rounded-md">
+      <div className="w-1/4  ">
         <div className="flex flex-col justify-start items-center p-2">
           <button
             className={`tablinks ${
               activeTab === 'دوچرخه' ? 'active' : ''
-            } mb-2 hover:bg-slate-100 rounded-md px-11 py-2`}
+            } text-slate-900 hover:text-blue-600 mb-2 border-2  hover:ml-1 hover:bg-slate-100 rounded-md w-full py-2 hover:border-b-2 hover:shadow-lg hover:-translate-x-1 hover:duration-75`}
             onMouseOver={(e) => openCategory(e, 'دوچرخه')}
           >
-            دوچرخه
+            <div className="flex ">
+              <img
+                className="object-cover mr-3 ml-7 w-8  h-8 rounded-full ring-4 ring-gray-300 "
+                src="/img/cat/1.jpg"
+                alt=""
+              />
+              <Link href={'/'} className="pt-1">
+                دوچرخه
+              </Link>
+            </div>
           </button>
           <button
             className={`tablinks ${
               activeTab === 'تردمیل' ? 'active' : ''
-            } mb-2 hover:bg-slate-100 rounded-md px-11 py-2`}
+            } text-slate-900 hover:text-blue-600 mb-2 border-2 hover:ml-1 hover:bg-slate-100 rounded-md w-full py-2  hover:border-b-2 hover:shadow-lg hover:-translate-x-1  hover:duration-75`}
             onMouseOver={(e) => openCategory(e, 'تردمیل')}
           >
-            تردمیل
+            <div className="flex ">
+              <img
+                className="object-cover mr-3 ml-7 w-8  h-8 rounded-full ring-4 ring-gray-300 "
+                src="/img/cat/2.jpg"
+                alt=""
+              />
+              <Link href={'/'} className="pt-1">تردمیل </Link>
+            </div>
           </button>
           <button
             className={`tablinks ${
               activeTab === 'قطعات دوچرخه' ? 'active' : ''
-            } mb-2 hover:bg-slate-100 rounded-md px-3 py-2`}
+            } text-slate-900 hover:text-blue-600 mb-2 border-2 hover:ml-1 hover:bg-slate-100 rounded-md w-full  py-2 hover:border-b-2 hover:shadow-lg hover:-translate-x-1  hover:duration-75`}
             onMouseOver={(e) => openCategory(e, 'قطعات دوچرخه')}
           >
-            قطعات دوچرخه{' '}
+            <div className="flex ">
+              <img
+                className="object-cover mr-3 ml-6 w-8  h-8 rounded-full ring-4 ring-gray-300 "
+                src="/img/cat/3.jpg"
+                alt=""
+              />
+
+              <Link href={'/'} className="pt-1"> قطعات دوچرخه </Link>
+            </div>
           </button>
           <button
             className={`tablinks ${
               activeTab === 'لوازم جانبی' ? 'active' : ''
-            } mb-2 hover:bg-slate-100 rounded-md px-8 py-2`}
+            } text-slate-900 hover:text-blue-600 mb-2 border-2 hover:ml-1 hover:bg-slate-100 rounded-md w-full py-2 hover:border-b-2 hover:shadow-lg hover:-translate-x-1  hover:duration-75`}
             onMouseOver={(e) => openCategory(e, 'لوازم جانبی')}
           >
-            لوازم جانبی
+            <div className="flex ">
+              <img
+                className="object-cover mr-3 ml-7 w-8  h-8 rounded-full ring-4 ring-gray-300 "
+                src="/img/cat/4.jpg"
+                alt=""
+              />
+
+              <Link href={'/'} className="pt-1"> لوازم جانبی </Link>
+            </div>
           </button>
           <button
             className={`tablinks ${
               activeTab === 'پوشاک' ? 'active' : ''
-            } mb-2 hover:bg-slate-100 rounded-md px-11 py-2`}
+            } text-slate-900 hover:text-blue-600 mb-2 border-2 hover:ml-1 hover:bg-slate-100 rounded-md w-full py-2 hover:border-b-2 hover:shadow-lg hover:-translate-x-1  hover:duration-75`}
             onMouseOver={(e) => openCategory(e, 'پوشاک')}
           >
-            پوشاک
+            <div className="flex">
+              <img
+                className="object-cover mr-3 ml-7 w-8  h-8 rounded-full ring-4 ring-gray-300 "
+                src="/img/cat/5.jpg"
+                alt=""
+              />
+
+              <Link href={'/'} className="pt-1"> پوشاک </Link>
+            </div>
           </button>
         </div>
       </div>
@@ -61,48 +102,61 @@ function TabMenu() {
           className={`tabcontent ${activeTab === 'دوچرخه' ? 'active' : ''} `}
         >
           <div className="grid grid-cols-3">
-            <div className='ml-2'>
+            <div className="ml-2">
               <Link href={'/'}>
                 {' '}
-                <h5 className="mb-2 font-bold hover:text-rose-700">کوهستان</h5>
+                <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">کوهستان</h5>
               </Link>
 
               <ul className=" text-slate-500">
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> سایز 24</Link>
-                </li>
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> سایز 26</Link>
-                </li>
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> سایز 27.5</Link>
-                </li>
-                <li className="hover:text-slate-800">
-                  <Link href={'/'}> سایز 29</Link>
-                </li>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    سایز 24
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    سایز 26
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    سایز 27.5
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    سایز 29
+                  </li>
+                </Link>
               </ul>
             </div>
-            <div className='ml-2'>
+            <div className="ml-2">
               <Link href={'/'}>
-              
-                <h5 className="mb-2 font-bold hover:text-rose-700">بچه گانه</h5>
+                <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">بچه گانه</h5>
               </Link>
               <ul className=" text-slate-500">
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> سایز 12</Link>
-                </li>
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> سایز 16</Link>
-                </li>
-                <li className="hover:text-slate-800">
-                  <Link href={'/'}> سایز 20</Link>
-                </li>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg  hover:-translate-x-2  hover:duration-300">
+                    سایز 12
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    سایز 16
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    سایز 20
+                  </li>
+                </Link>
               </ul>
             </div>
             <div>
               <Link href={'/'}>
                 {' '}
-                <h5 className="mb-2 font-bold hover:text-rose-700">شهری</h5>
+                <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">شهری</h5>
               </Link>
             </div>
           </div>
@@ -112,11 +166,11 @@ function TabMenu() {
           id="تردمیل"
           className={`tabcontent ${activeTab === 'تردمیل' ? 'active' : ''}`}
         >
-        <div>
-              <Link href={'/'}>
-                <h5 className="mb-2 font-bold hover:text-rose-700">تردمیل</h5>
-              </Link>
-            </div>
+          <div>
+            <Link href={'/'}>
+              <h5 className="mb-2 font-bold hover:text-rose-700 hover:shadow-md">تردمیل</h5>
+            </Link>
+          </div>
         </div>
         <div
           id="قطعات دوچرخه"
@@ -127,112 +181,159 @@ function TabMenu() {
           <div className="grid grid-cols-4">
             <div>
               <Link href={'/'}>
-                <h5 className="mb-2 font-bold hover:text-rose-700">
+                <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">
                   سیستم دنده
                 </h5>
               </Link>
               <ul className=" text-slate-500 ">
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> دسته دنده</Link>
-                </li>
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> خودرو</Link>
-                </li>
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> رکاب</Link>
-                </li>
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> طبق قامه</Link>
-                </li>
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> طبق عوض کن</Link>
-                </li>
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}>میل/توپی </Link>
-                </li>
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> زنجیر/قفل زنجیر</Link>
-                </li>
-                <li className="hover:text-slate-800">
-                  <Link href={'/'}>شانزمان/گوشواره </Link>
-                </li>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    دسته دنده
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    خودرو
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    رکاب
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    طبق قامه
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    طبق عوض کن
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    میل/توپی
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    زنجیر/قفل زنجیر
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    شانزمان/گوشواره
+                  </li>
+                </Link>
               </ul>
             </div>
             <div>
               <Link href={'/'}>
                 {' '}
-                <h5 className="mb-2 font-bold hover:text-rose-700">
+                <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">
                   سیستم ترمز
                 </h5>
               </Link>
               <ul className=" text-slate-500 ">
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> ترمز بندی</Link>
-                </li>
-                <li className="hover:text-slate-800  mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> لقمه/لنت</Link>
-                </li>
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500 ">
-                  <Link href={'/'}>کت </Link>
-                </li>
-                <li className="hover:text-slate-800  mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> سیستم ترمز/سیستم دنده</Link>
-                </li>
-                <li className="hover:text-slate-800 ">
-                  <Link href={'/'}> روتور دیسک</Link>
-                </li>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    ترمز بندی
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    لقمه/لنت
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    کت
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    سیستم ترمز/سیستم دنده
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    روتور دیسک
+                  </li>
+                </Link>
               </ul>
             </div>
             <div>
               <Link href={'/'}>
-                {' '}
-                <h5 className="mb-2 font-bold hover:text-rose-700">
+                <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">
                   سیستم تنه
                 </h5>
               </Link>
               <ul className=" text-slate-500">
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> جک</Link>
-                </li>{' '}
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> گریپ</Link>
-                </li>{' '}
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}>بالانس </Link>
-                </li>{' '}
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}>فرمان/کرپی </Link>
-                </li>{' '}
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> زین/لوله زین</Link>
-                </li>{' '}
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> کاسه/بلبرینگ</Link>
-                </li>{' '}
-                <li className="hover:text-slate-800">
-                  <Link href={'/'}> تنه/دوشاخ</Link>
-                </li>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    جک
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    گریپ
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    بالانس
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    فرمان/کرپی
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    زین/لوله زین
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    کاسه/بلبرینگ
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    تنه/دوشاخ
+                  </li>
+                </Link>
               </ul>
             </div>
             <div>
               <Link href={'/'}>
-                <h5 className="mb-2 font-bold hover:text-rose-700">
+                <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">
                   لاستیک و تیوپ
                 </h5>
               </Link>
               <ul className=" text-slate-500">
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> لاستیک</Link>
-                </li>
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}>تیوپ </Link>
-                </li>
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> طوقه</Link>
-                </li>
-                <li className="hover:text-slate-800">
-                  <Link href={'/'}>پره </Link>
-                </li>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    لاستیک
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    تیوپ
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    طوقه
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    پره
+                  </li>
+                </Link>
               </ul>
             </div>
           </div>
@@ -243,111 +344,144 @@ function TabMenu() {
             activeTab === 'لوازم جانبی' ? 'active' : ''
           }`}
         >
-         <div className="grid grid-cols-5">
-            <div className='ml-2'>
+          <div className="grid grid-cols-5">
+            <div className="ml-2">
               <Link href={'/'}>
-                <h5 className="mb-2 font-bold hover:text-rose-700">
-                  باربند
-                </h5>
+                <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">باربند</h5>
               </Link>
               <ul className=" text-slate-500 ">
-                <li className="hover:text-slate-800  mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> باربند ماشین</Link>
-                </li>
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}>ترکبند </Link>
-                </li> <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> گلگیر</Link>
-                </li> <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> سبد / صندوق</Link>
-                </li> <li className="hover:text-slate-800">
-                  <Link href={'/'}> پشتی زین</Link>
-                </li>
-              
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    باربند ماشین
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    ترکبند
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    گلگیر
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    سبد / صندوق
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    پشتی زین
+                  </li>
+                </Link>
               </ul>
             </div>
-            <div className='ml-2'>
-            <Link href={'/'}>
-                <h5 className="mb-2 font-bold hover:text-rose-700">
-                  کاور
-                </h5>
+            <div className="ml-2">
+              <Link href={'/'}>
+                <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">کاور</h5>
               </Link>
               <ul className=" text-slate-500 ">
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}>کاور تنه </Link>
-                </li>   <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> استیکر</Link>
-                </li>   <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}>روکش زین </Link>
-                </li>   <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> چادر دوچرخه</Link>
-                </li>   <li className="hover:text-slate-800">
-                  <Link href={'/'}> کیف</Link>
-                </li>
-              
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    کاور تنه
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    استیکر
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    روکش زین
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    چادر دوچرخه
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    کیف
+                  </li>
+                </Link>
               </ul>
             </div>
-            <div className='ml-2'>
-            <Link href={'/'}>
-                <h5 className="mb-2 font-bold hover:text-rose-700">
-                  ابزار
-                </h5>
+            <div className="ml-2">
+              <Link href={'/'}>
+                <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">ابزار</h5>
               </Link>
               <ul className=" text-slate-500 ">
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}>آچار </Link>
-                </li>  <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> پنچرگیری</Link>
-                </li>  <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> قمقمه و بست</Link>
-                </li>  <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> تلمبه</Link>
-                </li>  <li className="hover:text-slate-800">
-                  <Link href={'/'}> اسپری</Link>
-                </li>
-              
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    آچار
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    پنچرگیری
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    قمقمه و بست
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    تلمبه
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    اسپری
+                  </li>
+                </Link>
               </ul>
             </div>
-            <div className='ml-2'>
-            <Link href={'/'}>
-                <h5 className="mb-2 font-bold hover:text-rose-700">
-                  ایمنی
-                </h5>
+            <div className="ml-2">
+              <Link href={'/'}>
+                <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">ایمنی</h5>
               </Link>
               <ul className=" text-slate-500 ">
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> قفل</Link>
-                </li>
-                <li className="hover:text-slate-800 mb-1 border-b-2 border-dashed border-slate-500">
-                  <Link href={'/'}> چراغ</Link>
-                </li> <li className="hover:text-slate-800">
-                  <Link href={'/'}>بوق و زنگ </Link>
-                </li>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    قفل
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    چراغ
+                  </li>
+                </Link>
+                <Link href={'/'}>
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                    بوق و زنگ
+                  </li>
+                </Link>
               </ul>
             </div>
-            <div className='ml-2'>
-            <Link href={'/'}>
-                <h5 className="mb-2 font-bold hover:text-rose-700">
-                  آینه
-                </h5>
+            <div className="ml-2">
+              <Link href={'/'}>
+                <h5 className="mb-2 font-bold hover:text-rose-700 hover:shadow-md">آینه</h5>
               </Link>
               <Link href={'/'}>
-                <h5 className="mb-2 font-bold hover:text-rose-700">
+                <h5 className="mb-2 font-bold hover:text-rose-700 hover:shadow-md">
                   کیلومتر شمار
                 </h5>
               </Link>
               <Link href={'/'}>
-                <h5 className="mb-2 font-bold hover:text-rose-700">
+                <h5 className="mb-2 font-bold hover:text-rose-700 hover:shadow-md">
                   پایه نگهدارنده دوچرخه
                 </h5>
               </Link>
               <Link href={'/'}>
-                <h5 className="mb-2 font-bold hover:text-rose-700">
-                  بخاری
-                </h5>
+                <h5 className="mb-2 font-bold hover:text-rose-700 hover:shadow-md">بخاری</h5>
               </Link>
               <Link href={'/'}>
-                <h5 className="mb-2 font-bold hover:text-rose-700">
+                <h5 className="mb-2 font-bold hover:text-rose-700 hover:shadow-md">
                   کبریت چخماقی
                 </h5>
               </Link>
@@ -359,36 +493,35 @@ function TabMenu() {
           id="پوشاک"
           className={`tabcontent ${activeTab === 'پوشاک' ? 'active' : ''}`}
         >
-         <div className="grid grid-cols-5">
-         
+          <div className="grid grid-cols-5">
             <div>
               <Link href={'/'}>
                 {' '}
-                <h5 className="mb-2 font-bold hover:text-rose-700">کلاه</h5>
+                <h5 className="mb-2 font-bold hover:text-rose-700 hover:shadow-md">کلاه</h5>
               </Link>
             </div>
             <div>
               <Link href={'/'}>
                 {' '}
-                <h5 className="mb-2 font-bold hover:text-rose-700">دستکش</h5>
+                <h5 className="mb-2 font-bold hover:text-rose-700 hover:shadow-md">دستکش</h5>
               </Link>
             </div>
             <div>
               <Link href={'/'}>
                 {' '}
-                <h5 className="mb-2 font-bold hover:text-rose-700">لباس</h5>
+                <h5 className="mb-2 font-bold hover:text-rose-700 hover:shadow-md">لباس</h5>
               </Link>
             </div>
             <div>
               <Link href={'/'}>
                 {' '}
-                <h5 className="mb-2 font-bold hover:text-rose-700">جوراب</h5>
+                <h5 className="mb-2 font-bold hover:text-rose-700 hover:shadow-md">جوراب</h5>
               </Link>
             </div>
             <div>
               <Link href={'/'}>
                 {' '}
-                <h5 className="mb-2 font-bold hover:text-rose-700">عینک</h5>
+                <h5 className="mb-2 font-bold hover:text-rose-700 hover:shadow-md">عینک</h5>
               </Link>
             </div>
           </div>
