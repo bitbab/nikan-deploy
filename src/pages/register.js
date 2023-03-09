@@ -49,7 +49,7 @@ export default function LoginScreen() {
   return (
     <Layout title="ایجاد حساب کاربری">
       <form
-        className="mx-auto max-w-screen-md"
+        className="mx-auto max-w-screen-md mt-14 md:mt-6 "
         onSubmit={handleSubmit(submitHandler)}
       >
         <h1 className="mb-4 text-xl">ایجاد حساب کاربری</h1>

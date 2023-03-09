@@ -4,7 +4,7 @@ import React from 'react';
 const TopHeaderBanner = ({ imageUrl, linkUrl }) => {
 
   return (
-    <div className="bg-rose-600 ">
+    <div className="bg-yellow-400 mb-1 ">
       <Link href={linkUrl}>
         <img src={imageUrl} className="mx-auto " />
       </Link>

@@ -55,7 +55,7 @@ export default function Layout({ title, children }) {
         {/* this is a parent of all components */}
         <header className="container mb-16 md:mb-32 m-auto">
           <nav className="flex flex-col py-2  bg-white/80 backdrop-blur-md shadow-md w-full fixed top-0 left-0 right-0 z-10">
-          <TopHeaderBanner imageUrl="/img/banner/top.jpg" linkUrl="/shop" />
+          <TopHeaderBanner imageUrl="/img/logo/logo50.png" linkUrl="/shop" />
             <div className="hidden container md:flex  justify-around w-full mb-1">
               <Link href="/">
                 <img className="" src="/img/logo/logo50.png" alt="نیکان بایک" />

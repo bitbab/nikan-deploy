@@ -108,24 +108,24 @@ function TabMenu() {
                 <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">کوهستان</h5>
               </Link>
 
-              <ul className=" text-slate-500">
+              <ul className=" text-slate-500 text-xxs ">
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     سایز 24
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     سایز 26
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     سایز 27.5
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     سایز 29
                   </li>
                 </Link>
@@ -135,19 +135,19 @@ function TabMenu() {
               <Link href={'/'}>
                 <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">بچه گانه</h5>
               </Link>
-              <ul className=" text-slate-500">
+              <ul className=" text-slate-500 text-xxs">
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg  hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg  hover:-translate-x-2  hover:duration-300 py-1">
                     سایز 12
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     سایز 16
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     سایز 20
                   </li>
                 </Link>
@@ -185,44 +185,44 @@ function TabMenu() {
                   سیستم دنده
                 </h5>
               </Link>
-              <ul className=" text-slate-500 ">
+              <ul className=" text-slate-500 text-xxs">
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     دسته دنده
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     خودرو
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     رکاب
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     طبق قامه
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     طبق عوض کن
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     میل/توپی
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     زنجیر/قفل زنجیر
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     شانزمان/گوشواره
                   </li>
                 </Link>
@@ -235,29 +235,29 @@ function TabMenu() {
                   سیستم ترمز
                 </h5>
               </Link>
-              <ul className=" text-slate-500 ">
+              <ul className=" text-slate-500 text-xxs">
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     ترمز بندی
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     لقمه/لنت
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     کت
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     سیستم ترمز/سیستم دنده
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     روتور دیسک
                   </li>
                 </Link>
@@ -269,39 +269,39 @@ function TabMenu() {
                   سیستم تنه
                 </h5>
               </Link>
-              <ul className=" text-slate-500">
+              <ul className=" text-slate-500 text-xxs">
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     جک
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     گریپ
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     بالانس
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     فرمان/کرپی
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     زین/لوله زین
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     کاسه/بلبرینگ
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     تنه/دوشاخ
                   </li>
                 </Link>
@@ -313,24 +313,24 @@ function TabMenu() {
                   لاستیک و تیوپ
                 </h5>
               </Link>
-              <ul className=" text-slate-500">
+              <ul className=" text-slate-500 text-xxs">
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     لاستیک
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     تیوپ
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     طوقه
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     پره
                   </li>
                 </Link>
@@ -349,29 +349,29 @@ function TabMenu() {
               <Link href={'/'}>
                 <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">باربند</h5>
               </Link>
-              <ul className=" text-slate-500 ">
+              <ul className=" text-slate-500 text-xxs">
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     باربند ماشین
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     ترکبند
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     گلگیر
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     سبد / صندوق
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     پشتی زین
                   </li>
                 </Link>
@@ -381,29 +381,29 @@ function TabMenu() {
               <Link href={'/'}>
                 <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">کاور</h5>
               </Link>
-              <ul className=" text-slate-500 ">
+              <ul className=" text-slate-500 text-xxs">
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     کاور تنه
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     استیکر
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     روکش زین
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     چادر دوچرخه
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     کیف
                   </li>
                 </Link>
@@ -413,29 +413,29 @@ function TabMenu() {
               <Link href={'/'}>
                 <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">ابزار</h5>
               </Link>
-              <ul className=" text-slate-500 ">
+              <ul className=" text-slate-500 text-xxs">
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     آچار
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     پنچرگیری
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     قمقمه و بست
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     تلمبه
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     اسپری
                   </li>
                 </Link>
@@ -445,19 +445,19 @@ function TabMenu() {
               <Link href={'/'}>
                 <h5 className="mb-2 font-bold hover:text-rose-700 border-b-2 pb-1 hover:shadow-md">ایمنی</h5>
               </Link>
-              <ul className=" text-slate-500 ">
+              <ul className=" text-slate-500 text-xxs">
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     قفل
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     چراغ
                   </li>
                 </Link>
                 <Link href={'/'}>
-                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300">
+                  <li className="hover:text-slate-800 mb-1 hover:border-b-2 hover:shadow-lg hover:-translate-x-2  hover:duration-300 py-1">
                     بوق و زنگ
                   </li>
                 </Link>
@@ -473,7 +473,7 @@ function TabMenu() {
                 </h5>
               </Link>
               <Link href={'/'}>
-                <h5 className="mb-2 font-bold hover:text-rose-700 hover:shadow-md">
+                <h5 className="mb-2 font-bold hover:text-rose-700 hover:shadow-md text-xxs">
                   پایه نگهدارنده دوچرخه
                 </h5>
               </Link>

@@ -79,13 +79,13 @@ function SmallNav() {
                                 <Link href={'/'}> سایز 24</Link>
                               </li>
                               <li>
-                                <Link href={'/'}> سایز 24</Link>
+                                <Link href={'/'}> سایز 26</Link>
                               </li>
                               <li>
-                                <Link href={'/'}> سایز 24</Link>
+                                <Link href={'/'}> سایز 27.5</Link>
                               </li>
                               <li>
-                                <Link href={'/'}> سایز 24</Link>
+                                <Link href={'/'}> سایز 29</Link>
                               </li>
                             </ul>
                           </Disclosure.Panel>
@@ -135,9 +135,7 @@ function SmallNav() {
                               <li>
                                 <Link href={'/'}> سایز 20</Link>
                               </li>
-                              <li>
-                                <Link href={'/'}> سایز 24</Link>
-                              </li>
+                           
                             </ul>
                           </Disclosure.Panel>
                         </>

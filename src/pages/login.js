@@ -40,7 +40,7 @@ export default function LoginScreen() {
   return (
     <Layout title="صفحه ورود">
       <form
-        className="mx-auto max-w-screen-md"
+        className="mx-auto max-w-screen-md mt-14 md:mt-6"
         onSubmit={handleSubmit(submitHandler)}
       >
         <h1 className="mb-4 text-xl">ورود</h1>

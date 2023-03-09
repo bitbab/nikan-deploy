@@ -9,8 +9,8 @@ import { Menu } from '@headlessui/react';
 import 'react-toastify/dist/ReactToastify.css';
 import { Store } from 'utils/Store';
 import DropdownLink from 'components/DropdownLink';
-import { useRouter } from 'next/router';
-import { SearchIcon } from '@heroicons/react/outline';
+// import { useRouter } from 'next/router';
+// import { SearchIcon } from '@heroicons/react/outline';
 import { MenuIcon } from '@heroicons/react/outline';
 import MainNav from './MainNav';
 import Social from './Social';
@@ -22,6 +22,7 @@ import Footer from './Footer';
 import TopHeaderBanner from './TopHeaderBanner';
 import MobileMenu from './MobileMenu';
 import CallButton from './CallButton';
+import SearchBox from './SearchBox';
 
 export default function Layout({ title, children }) {
   const { status, data: session } = useSession();
@@ -37,13 +38,13 @@ export default function Layout({ title, children }) {
     dispatch({ type: 'CART_RESET' });
     signOut({ callbackUrl: '/login' });
   };
-  const [query, setQuery] = useState('');
+  // const [query, setQuery] = useState('');
 
-  const router = useRouter();
-  const submitHandler = (e) => {
-    e.preventDefault();
-    router.push(`/search?query=${query}`);
-  };
+  // const router = useRouter();
+  // const submitHandler = (e) => {
+  //   e.preventDefault();
+  //   router.push(`/search?query=${query}`);
+  // };
   return (
     <>
       <Head>
@@ -58,31 +59,12 @@ export default function Layout({ title, children }) {
         {/* this is a parent of all components */}
         <header className="container mb-16 md:mb-32  m-auto">
           <nav className="flex flex-col py-1  bg-white/80 backdrop-blur-md shadow-md w-full fixed top-0 left-0 right-0 z-20">
-            <TopHeaderBanner imageUrl="/img/banner/top.jpg" linkUrl="/shop" />
+            <TopHeaderBanner imageUrl="/img/logo/logo50.png" linkUrl="/shop" />
             <div className="hidden container md:flex  justify-around w-full mb-1">
               <Link href="/">
                 <img className="" src="/img/logo/logo50.png" alt="نیکان بایک" />
               </Link>
-              <div>
-                <form
-                  onSubmit={submitHandler}
-                  className="mx-auto  hidden w-full justify-center md:flex"
-                >
-                  <input
-                    onChange={(e) => setQuery(e.target.value)}
-                    type="text"
-                    className="rounded-tl-none rounded-bl-none py-2 px-12 focus:ring-0 "
-                    placeholder="جستجو محصولات"
-                  />
-                  <button
-                    className="rounded rounded-tr-none rounded-br-none bg-rose-600 py-2 px-4 dark:text-black"
-                    type="submit"
-                    id="button-addon2"
-                  >
-                    <SearchIcon className="h-5 w-5 text-white"></SearchIcon>
-                  </button>
-                </form>
-              </div>
+              <SearchBox/>
               <div className="flex  rounded-md border ">
                 <div className="font-bold my-2 text-blue-600 mx-2">
                   ما را دنبال کنید
@@ -328,7 +310,7 @@ export default function Layout({ title, children }) {
             <CallButton/>
           
         </header>
-        <main className=" grid grid-cols-1 container px-4 mt-8 m-auto">
+        <main className=" grid grid-cols-1 container px-4 mt-14 md:mt-10 lg:mt-10 ">
          
           <div className="mb-5 shadow-md  rounded-xl">
             <Banner />

@@ -29,7 +29,7 @@ function CartScreen() {
   };
   return (
     <Layout title="سبد خرید">
-      <h1 className="mb-4 text-xl">سبد خرید</h1>
+      <h1 className="mb-4 text-xl mt-12 md:mt-6 lg:mt-0">سبد خرید</h1>
       {cartItems.length === 0 ? (
         <div>
           <div className="text-xl font-bold mb-5 text-rose-600">

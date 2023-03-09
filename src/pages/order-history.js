@@ -42,7 +42,7 @@ function OrderHistoryScreen() {
 
   return (
     <Layout title="Order History">
-      <h1 className="mb-4 p-3 rounded-md text-xl bg-rose-700 text-white">
+      <h1 className="mb-4 p-3 rounded-md text-xl bg-rose-700 text-white mt-14 md:mt-9">
         تاریخچه سفارشات
       </h1>
       {loading ? (

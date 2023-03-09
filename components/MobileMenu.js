@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { useState } from "react";
+import SearchBox from "./SearchBox";
 import SmallNav from "./SmallNav";
 
 const MobileMenu = () => {
@@ -8,16 +10,18 @@ const MobileMenu = () => {
  
     <nav className="bg-white shadow">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-14">
           <div className="flex items-center">
-            <a href="/">
+            <Link href="/">
               <img
-                className="h-8 w-auto"
+                className="h-7 w-auto "
                 src="/img/logo/logo50.png"
                 alt="نیکان بایک"
               />
-            </a>
+            </Link>
+           
           </div>
+          <SearchBox/>
           <div className="flex md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}

@@ -107,7 +107,7 @@ export default function Search(props) {
   };
   return (
     <Layout title="search">
-      <div className="grid md:grid-cols-4 md:gap-5">
+      <div className="grid md:grid-cols-4 md:gap-5 mt-14 md:mt-10">
         <div>
           <div className="my-3">
             <h2>دسته بندی ها</h2>

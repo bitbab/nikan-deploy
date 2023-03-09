@@ -7,23 +7,23 @@ export default function Banner() {
   const slides = [
     {
       imageUrl: '/img/banner/slide1.webp',
-      linkUrl: 'https://example.com/1'
+      linkUrl: '/'
     },
     {
       imageUrl: '/img/banner/slide2.webp',
-      linkUrl: 'https://example.com/2'
+      linkUrl: '/'
     },
     {
       imageUrl: '/img/banner/slide3.webp',
-      linkUrl: 'https://example.com/3'
+      linkUrl: '/'
     },
     {
       imageUrl: '/img/banner/slide4.webp',
-      linkUrl: 'https://example.com/4'
+      linkUrl: '/'
     },
     {
       imageUrl: '/img/banner/slide5.webp',
-      linkUrl: 'https://example.com/5'
+      linkUrl: '/'
     }
   ];
 
