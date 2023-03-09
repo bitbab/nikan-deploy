@@ -9,9 +9,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontSize: {
-      'xxs': '0.85rem',
-    },
+   
     container:{
       center:true,
       padding: "1rem"

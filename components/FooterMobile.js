@@ -4,36 +4,29 @@ import Social from './Social'
 
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-900 shadow-inner hidden sm:block">
-          <div className="container p-6 mx-auto">
+    <footer className="bg-white dark:bg-gray-900 shadow-inner sm:hidden mb-24">
+          <div className="container  mx-auto">
             <div className="lg:flex">
-              <div className="w-full -mx-6 lg:w-2/5">
+            <div className="w-full -mx-6 ">
                 <div className="px-6">
-                <div className='flex justify-start'><Link href="/">
-                    <img
-                      className="w-auto h-20 ml-32"
-                      src="/img/logo/logo.png"
-                      alt="نیکان بایک"
-                    />
-                  </Link>
-                  <Link href="/">
-                    <img
-                      className="w-auto h-20"
-                      src="/img/logo/namad.jpg"
-                      alt="نیکان بایک"
-                    />
-                  </Link></div>  
-
-                  <p className="max-w-sm mt-2 text-gray-500 dark:text-gray-400">
-                    آدرس فروشگاه: تبریز، خیابان نیروی هوایی (منجم)، نرسیده به
-                    بلوار منجم
-                  </p>
+                <div>
+                  <p className='p-2 text-center shadow-md mb-2 rounded-md text-2xl font-extrabold border-b-2 border-r-2 border-l-2 text-rose-600'>09214112609</p>
+                  <div className='flex' >
+                    <div className="font-bold my-2 text-blue-600">
+                با ما همراه باشید
+                    </div>
+                    <div className=" mx-2 flex justify-center">
+                      <Social />
+                    </div>
+                  </div>
+                  </div>
                 
                 </div>
-              </div>
+              </div> 
 
               <div className="mt-6 lg:mt-0 lg:flex-1">
-                <div className="grid grid-cols-4 gap-2 sm:gap-4 md:gap-6 ">
+                <div className="grid grid-cols-3 gap-2 ">
+                
                   <div>
                     <h3 className="text-gray-700 uppercase dark:text-white">
                      نیکان بایک
@@ -97,21 +90,35 @@ export default function Footer() {
                  
                   </div>
 
-                  <div>
-                  <p className='py-1'> تلفن تماس: 09214112609</p>
-                  <div >
-                    <div className="font-bold my-2 text-blue-600">
-                با ما همراه باشید
-                    </div>
-                    <div className=" mx-2 flex justify-end">
-                      <Social />
-                    </div>
-                  </div>
-                  </div>
+                
                 </div>
               </div>
             </div>
+ <div className="w-full -mx-6 lg:w-2/5">
+                <div className="px-6">
+                <p className="max-w-sm mt-2 text-gray-500 dark:text-gray-400 py-2">
+                    آدرس فروشگاه: تبریز، خیابان نیروی هوایی (منجم)، نرسیده به
+                    بلوار منجم
+                  </p>
+                <div className='flex justify-start'><Link href="/">
+                    <img
+                      className="w-auto h-20 ml-32"
+                      src="/img/logo/logo.png"
+                      alt="نیکان بایک"
+                    />
+                  </Link>
+                  <Link href="/">
+                    <img
+                      className="w-auto h-20"
+                      src="/img/logo/namad.jpg"
+                      alt="نیکان بایک"
+                    />
+                  </Link></div>  
 
+                 
+                
+                </div>
+              </div>
             <hr className="h-px my-6 bg-gray-200 border-none dark:bg-gray-700" />
 
             <div>

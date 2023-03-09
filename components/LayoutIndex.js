@@ -23,6 +23,7 @@ import TopHeaderBanner from './TopHeaderBanner';
 import MobileMenu from './MobileMenu';
 import CallButton from './CallButton';
 import SearchBox from './SearchBox';
+import FooterMobile from './FooterMobile'
 
 export default function Layout({ title, children }) {
   const { status, data: session } = useSession();
@@ -336,6 +337,7 @@ export default function Layout({ title, children }) {
           </div>
         </main>
         <Footer />
+        <FooterMobile/>
       </div>
     </>
   );

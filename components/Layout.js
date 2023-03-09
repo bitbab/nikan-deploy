@@ -19,6 +19,7 @@ import Footer from './Footer';
 import MobileMenu from './MobileMenu';
 import TopHeaderBanner from './TopHeaderBanner';
 import CallButton from './CallButton';
+import FooterMobile from './FooterMobile'
 
 
 export default function Layout({ title, children }) {
@@ -326,6 +327,7 @@ export default function Layout({ title, children }) {
         <main className="container px-4 mt-8 m-auto">
           {children}</main>
        <Footer/>
+       <FooterMobile/>
       </div>
     </>
   );

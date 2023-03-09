@@ -118,7 +118,7 @@ function OrderScreen() {
       ) : error ? (
         <div className="alert-error">{error}</div>
       ) : (
-        <div className="grid md:grid-cols-4 md:gap-5">
+        <div className="grid md:grid-cols-4 md:gap-5 mt-8 md:mt-4">
           <div className="overflow-x-auto md:col-span-3">
           <div className="card  p-5 mt-4"> <h1 className="mb-4  text-xl">{`کد سفارش :  ${orderId}`}</h1></div>
             <div className="card  p-5">
